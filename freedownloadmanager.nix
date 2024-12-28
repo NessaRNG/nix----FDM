@@ -12,7 +12,7 @@
 , xorg
 , libpulseaudio
 , mysql80
-, libXcursor
+, xcbutilcursor
 }:
 
 stdenv.mkDerivation rec {
