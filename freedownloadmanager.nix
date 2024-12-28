@@ -50,6 +50,7 @@ stdenv.mkDerivation rec {
     xcbutilimage      # libxcb-image.so.0
     xcbutilkeysyms    # libxcb-keysyms.so.1
     xcbutilrenderutil # libxcb-render-util.so.0
+    xcbutilcursor
     libpulseaudio
   ]);
 
