@@ -29,6 +29,9 @@ stdenv.mkDerivation rec {
   ];
 
   buildInputs = [
+    libxcb
+    libpulse
+    libmysqlclient
     libdrm
     libpqxx
     unixODBC
